@@ -136,6 +136,10 @@ namespace MVCÖvning.Controllers
             return View(product);
         }
 
+        public async Task<IActionResult> NewResult(int name)
+        {
+        }
+
         // POST: Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
